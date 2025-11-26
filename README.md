@@ -1,4 +1,4 @@
-# 🏛️ ut legislation file tree
+# 🏛️ Utah legislation file tree
 
 Download a copy of your states legislation.
 
