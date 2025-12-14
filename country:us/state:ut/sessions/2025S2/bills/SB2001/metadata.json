@@ -16,7 +16,7 @@
   "other_identifiers": [],
   "actions": [
     {
-      "description": "Bill Numbered but not Distributed",
+      "description": "Numbered Bill Publicly Distributed",
       "date": "2025-12-08T19:46:00+00:00",
       "organization_id": "~{\"classification\": \"legislature\"}",
       "classification": [],
@@ -26,7 +26,7 @@
       }
     },
     {
-      "description": "Numbered Bill Publicly Distributed",
+      "description": "Bill Numbered but not Distributed",
       "date": "2025-12-08T19:46:00+00:00",
       "organization_id": "~{\"classification\": \"legislature\"}",
       "classification": [],
@@ -261,6 +261,42 @@
       "_processing": {
         "log_file_created": "2025-12-11T12:54:34Z"
       }
+    },
+    {
+      "description": "Senate/ received enrolled bill from Printing",
+      "date": "2025-12-10T22:10:00+00:00",
+      "organization_id": "~{\"classification\": \"upper\"}",
+      "classification": [
+        "receipt"
+      ],
+      "related_entities": [],
+      "_processing": {
+        "log_file_created": "2025-12-14T20:41:23Z"
+      }
+    },
+    {
+      "description": "Governor Signed",
+      "date": "2025-12-11T22:08:00+00:00",
+      "organization_id": "~{\"classification\": \"executive\"}",
+      "classification": [
+        "executive-signature"
+      ],
+      "related_entities": [],
+      "_processing": {
+        "log_file_created": "2025-12-14T20:41:23Z"
+      }
+    },
+    {
+      "description": "Senate/ to Governor",
+      "date": "2025-12-11T22:10:00+00:00",
+      "organization_id": "~{\"classification\": \"executive\"}",
+      "classification": [
+        "executive-receipt"
+      ],
+      "related_entities": [],
+      "_processing": {
+        "log_file_created": "2025-12-14T20:41:23Z"
+      }
     }
   ],
   "sponsorships": [
@@ -460,6 +496,6 @@
     "division_id": "ocd-division/country:us/state:ut"
   },
   "_processing": {
-    "logs_latest_update": "2025-12-11T12:54:34Z"
+    "logs_latest_update": "2025-12-14T20:41:23Z"
   }
 }
